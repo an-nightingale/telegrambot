@@ -25,8 +25,7 @@ def start(m):
 # Получение сообщений
 @bot.message_handler(content_types=["text"])
 def handle_text(message):
-    global subject, year, waiting_for_subject
-    answer = ""
+    global subject, year, waiting_for_subject, answer
     if message.text.strip() == 'Что такое качество жизни?':
         answer = facts[0]
     elif message.text.strip() == 'Что такое ИЧР?':
