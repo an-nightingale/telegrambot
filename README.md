@@ -1,4 +1,5 @@
 # Telegram bot "Quality of life"
+A Telegram bot created for "Project and research" subject at the University 
 Simple telegram bot made using the "telebot" Python library. This bot displays messages with information taken from a .txt file
 and displays HDI of a chosen region of Russia in a particular year taken from a .csv file
 
